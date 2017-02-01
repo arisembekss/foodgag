@@ -5,7 +5,7 @@ android {
         config {
             keyAlias 'foodgag'
             keyPassword '300312'
-            storeFile file('/home/aris/AndroidStudioProjects/codecanyon-5190062-layar-tancep-youtube-app-for-android/Layar Tancep 2.0/layartancep-youtube-app-for-android/foodgag.jks')
+            storeFile file('../foodgag.jks')
             storePassword '300312'
         }
     }
