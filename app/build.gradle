@@ -1,0 +1,52 @@
+apply plugin: 'com.android.application'
+
+android {
+    signingConfigs {
+        config {
+            keyAlias 'foodgag'
+            keyPassword '300312'
+            storeFile file('/home/aris/AndroidStudioProjects/codecanyon-5190062-layar-tancep-youtube-app-for-android/Layar Tancep 2.0/layartancep-youtube-app-for-android/foodgag.jks')
+            storePassword '300312'
+        }
+    }
+    compileSdkVersion 23
+    buildToolsVersion "23.0.1"
+    defaultConfig {
+        applicationId "com.dtech.uniqilm"
+        minSdkVersion 12
+        targetSdkVersion 23
+        versionCode 4
+        versionName "2.0"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+repositories {
+    jcenter()
+    maven {
+        url "https://jitpack.io"
+    }
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    compile 'com.android.support:appcompat-v7:23.1.0'
+    compile 'com.android.support:support-v4:23.1.0'
+    compile 'com.android.support:recyclerview-v7:23.1.0'
+    compile 'com.google.android.gms:play-services-ads:8.3.0'
+    compile('com.mikepenz:materialdrawer:4.4.6@aar') {
+        transitive = true
+    }
+    testCompile 'junit:junit:4.12'
+    compile 'com.mcxiaoke.volley:library:1.0.19'
+    compile 'com.github.mrengineer13:snackbar:1.2.0'
+    compile 'com.marshalchen.ultimaterecyclerview:library:0.3.18'
+    compile 'com.lsjwzh:materialloadingprogressbar:0.5.8-RELEASE'
+    compile 'com.mikepenz:google-material-typeface:2.1.2.1@aar'
+    compile 'com.github.AndroidDeveloperLB:MaterialPreferenceLibrary:5'
+}
