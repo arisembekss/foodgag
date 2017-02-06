@@ -12,34 +12,34 @@
     <!-- Channel and playlist names, you can change the text but do NOT remove New Videos field. -->
     <string-array name="channel_names">
         <item>New Videos</item>
-        <item>food gag</item>
-        <!--<item>Spaghetti Pie</item>
+        <item>Food gag</item>
+        <!--<item>Spaghetti Pie</item>-->
         <item>Desert</item>
-        <item>Dinner</item>
+        <item>Appetizer</item>
         <item>Breakfast</item>
-        <item>Foodism</item>-->
+        <item>Foodism</item>
     </string-array>
 
     <!-- If it is channel than set it with 1, if it is playlist set it with 2. -->
     <string-array name="video_types">
         <item>0</item>
         <item>2</item>
-        <!--<item>2</item>
+        <!--<item>2</item>-->
         <item>2</item>
         <item>2</item>
         <item>2</item>
-        <item>2</item>-->
+        <item>2</item>
     </string-array>
 
     <!-- Channel and playlist ids -->
     <string-array name="channel_ids">
         <item>0</item>
         <item>PLMhhoSpcfG7KjUS5W0725dOj-BOiiFWCQ</item>
-        <!--<item>PL8zglt-LDl-g1jloR9OJ9weMk8CX2nSkE</item>
-        <item>PL8zglt-LDl-gZa9icq9eqs_vtRew5gy2-</item>
-        <item>PL8zglt-LDl-iwBHEl3Pw1IhWGp9cfgMrc</item>
-        <item>PL8zglt-LDl-i0xOKNOyfp3MHejOv1Kyov</item>
-        <item>LLqf_rFCGLODeUcw3p_Abr-A</item>-->
+        <!--<item>PL8zglt-LDl-g1jloR9OJ9weMk8CX2nSkE</item>-->
+        <item>PLMhhoSpcfG7KsTcph5cF-0Fkjh8a_PfTp</item>
+        <item>PLMhhoSpcfG7IvcZ8hl2X-68hmIfJXkjeZ</item>
+        <item>PLMhhoSpcfG7K4kJdhXh8h2us583_H0sie</item>
+        <item>PLMhhoSpcfG7LypfRc-_wOsDQqXLX5bv6H</item>
     </string-array>
 
     <!-- Page titles -->

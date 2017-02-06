@@ -89,11 +89,11 @@ public class Utils {
     // For every detail you want to display interstitial ad.
     // 3 means interstitial ad will display after user open detail page three times.
     public static final int ARG_TRIGGER_VALUE = 3;
-    // Admob visibility parameter. Set true to show false and false to hide.
+    // Admob visibility parameter. Set true to show and false to hide.
     public static final boolean IS_ADMOB_VISIBLE = true;
     // Set value to true if you are still in development process,
     // and false if you are ready to publish the app.
-    public static final boolean IS_ADMOB_IN_DEBUG = true;
+    public static final boolean IS_ADMOB_IN_DEBUG = false;
 
     // Method to check admob visibility
     public static boolean admobVisibility(AdView ad, boolean isInDebugMode){

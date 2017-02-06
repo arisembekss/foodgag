@@ -230,7 +230,7 @@ public class FragmentChannelVideos extends Fragment implements View.OnClickListe
                 // Create an ad request
                 if (Utils.IS_ADMOB_IN_DEBUG) {
                     adRequest = new AdRequest.Builder().
-                            addTestDevice(AdRequest.DEVICE_ID_EMULATOR).build();
+                            addTestDevice("D1CB1A0F81471E6BF7A338ECB8C9A2C7").build();
                 } else {
                     adRequest = new AdRequest.Builder().build();
                 }

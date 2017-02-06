@@ -210,9 +210,9 @@ public class FragmentNewVideos extends Fragment implements View.OnClickListener 
                     adRequest = new AdRequest.Builder().
                             addTestDevice("D1CB1A0F81471E6BF7A338ECB8C9A2C7").build();
                 } else {
-                    adRequest = new AdRequest.Builder().
-                            addTestDevice("D1CB1A0F81471E6BF7A338ECB8C9A2C7").build();
-                    /*adRequest = new AdRequest.Builder().build();*/
+                    /*adRequest = new AdRequest.Builder().
+                            addTestDevice("D1CB1A0F81471E6BF7A338ECB8C9A2C7").build();*/
+                    adRequest = new AdRequest.Builder().build();
                 }
 
                 // When interstitialTrigger equals ARG_TRIGGER_VALUE, display interstitial ad

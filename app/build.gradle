@@ -10,12 +10,12 @@ android {
         }
     }
     compileSdkVersion 23
-    buildToolsVersion "23.0.1"
+    buildToolsVersion "23.0.2"
     defaultConfig {
         applicationId "com.dtech.uniqilm"
         minSdkVersion 12
         targetSdkVersion 23
-        versionCode 4
+        versionCode 5
         versionName "2.0"
     }
     buildTypes {
